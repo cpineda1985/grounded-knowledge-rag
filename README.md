@@ -82,15 +82,20 @@ How to read this honestly:
 
 ### Answers
 
-Run `akr eval` with an API key. It reports, for every question:
+Measured with `akr eval` using `claude-haiku-5-5`.
 
-- **Answered with the expected citation:** the answer cites the section the question was written for.
-- **Invalid citations:** citations to sections that were not retrieved (should be 0).
-- **Wrong refusals:** refusals on questions the documents do answer.
-- **Correct refusals:** refusals on off-topic questions.
-- **Cost and latency:** totals and averages, priced from `config.toml`.
+| Question set | Questions | Cited the expected section | Invalid citations | Wrong refusals | Off-topic correctly refused | Refused by the gate for $0 | Total cost | Avg latency |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Tuning set | 34 (28 answerable, 6 off-topic) | 28 of 28 | 0 | 0 | 6 of 6 | 5 | $0.0040 | 0.91 s |
+| Held-out set | 13 (10 answerable, 3 off-topic) | 10 of 10 | 0 | 0 | 3 of 3 | 2 | $0.0020 | 1.23 s |
 
-Full per-question results are written to `evals/results/latest.json`.
+How to read this honestly:
+
+- "Correct" means deterministic checks passed: the answer cites the section the question was written for, cites nothing that was not retrieved, and refuses only when it should. It does not grade whether every sentence is fully faithful to the source; an LLM-as-judge faithfulness score is on the roadmap.
+- The sets are small (47 questions in total), and results can vary slightly between runs. Treat them as evidence that the design works, not as a benchmark.
+- Average latency includes questions refused by the gate, which return without a model call.
+
+Reproduce with `akr eval` and `akr eval --questions evals/heldout.jsonl`. Per-question results are in `evals/results/generation_questions.json` and `evals/results/heldout_generation.json`.
 
 ## Use it with your own documents
 

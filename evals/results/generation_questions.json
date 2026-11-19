@@ -1,0 +1,1099 @@
+{
+  "retrieval": {
+    "answerable": 28,
+    "unanswerable": 6,
+    "top_k": 4,
+    "hit_at_1": 0.8571428571428571,
+    "hit_at_k": 1.0,
+    "mrr": 0.9107142857142857,
+    "gate_min_score": 4.5,
+    "gate_blocked_answerable": 0,
+    "gate_blocked_unanswerable": 5,
+    "rows": [
+      {
+        "id": "q01",
+        "rank": 1,
+        "top": [
+          "cancellations#vacation-packages"
+        ],
+        "top_score": 13.43
+      },
+      {
+        "id": "q02",
+        "rank": 1,
+        "top": [
+          "payments#deposit"
+        ],
+        "top_score": 9.19
+      },
+      {
+        "id": "q03",
+        "rank": 1,
+        "top": [
+          "payments#installment-plans"
+        ],
+        "top_score": 16.28
+      },
+      {
+        "id": "q04",
+        "rank": 1,
+        "top": [
+          "cancellations#flight-only-bookings"
+        ],
+        "top_score": 13.32
+      },
+      {
+        "id": "q05",
+        "rank": 1,
+        "top": [
+          "changes#name-corrections"
+        ],
+        "top_score": 19.42
+      },
+      {
+        "id": "q06",
+        "rank": 2,
+        "top": [
+          "cancellations#vacation-packages"
+        ],
+        "top_score": 5.68
+      },
+      {
+        "id": "q07",
+        "rank": 3,
+        "top": [
+          "refunds#supplier-credits"
+        ],
+        "top_score": 7.91
+      },
+      {
+        "id": "q08",
+        "rank": 1,
+        "top": [
+          "refunds#refund-method"
+        ],
+        "top_score": 22.12
+      },
+      {
+        "id": "q09",
+        "rank": 1,
+        "top": [
+          "refunds#non-refundable-items"
+        ],
+        "top_score": 11.77
+      },
+      {
+        "id": "q10",
+        "rank": 3,
+        "top": [
+          "baggage#extra-baggage"
+        ],
+        "top_score": 9.07
+      },
+      {
+        "id": "q11",
+        "rank": 3,
+        "top": [
+          "baggage#who-sets-baggage-rules"
+        ],
+        "top_score": 7.0
+      },
+      {
+        "id": "q12",
+        "rank": 1,
+        "top": [
+          "insurance#plans-offered"
+        ],
+        "top_score": 15.01
+      },
+      {
+        "id": "q13",
+        "rank": 1,
+        "top": [
+          "insurance#when-to-buy"
+        ],
+        "top_score": 13.65
+      },
+      {
+        "id": "q14",
+        "rank": 1,
+        "top": [
+          "documents#agency-role"
+        ],
+        "top_score": 8.59
+      },
+      {
+        "id": "q15",
+        "rank": 1,
+        "top": [
+          "documents#visa-processing-support"
+        ],
+        "top_score": 12.98
+      },
+      {
+        "id": "q16",
+        "rank": 1,
+        "top": [
+          "groups#what-counts-as-a-group"
+        ],
+        "top_score": 8.05
+      },
+      {
+        "id": "q17",
+        "rank": 1,
+        "top": [
+          "groups#rooming-list"
+        ],
+        "top_score": 12.6
+      },
+      {
+        "id": "q18",
+        "rank": 1,
+        "top": [
+          "groups#group-discounts"
+        ],
+        "top_score": 10.37
+      },
+      {
+        "id": "q19",
+        "rank": 1,
+        "top": [
+          "commissions#commission-rates"
+        ],
+        "top_score": 11.09
+      },
+      {
+        "id": "q20",
+        "rank": 1,
+        "top": [
+          "commissions#when-commissions-are-paid"
+        ],
+        "top_score": 8.35
+      },
+      {
+        "id": "q21",
+        "rank": 1,
+        "top": [
+          "commissions#cancellations-and-clawback"
+        ],
+        "top_score": 11.03
+      },
+      {
+        "id": "q22",
+        "rank": 1,
+        "top": [
+          "invoicing#correcting-an-invoice"
+        ],
+        "top_score": 8.38
+      },
+      {
+        "id": "q23",
+        "rank": 1,
+        "top": [
+          "escalations#problems-during-a-trip"
+        ],
+        "top_score": 6.36
+      },
+      {
+        "id": "q24",
+        "rank": 1,
+        "top": [
+          "escalations#escalation-levels"
+        ],
+        "top_score": 10.46
+      },
+      {
+        "id": "q25",
+        "rank": 1,
+        "top": [
+          "office#roles"
+        ],
+        "top_score": 11.4
+      },
+      {
+        "id": "q26",
+        "rank": 1,
+        "top": [
+          "office#office-hours"
+        ],
+        "top_score": 15.64
+      },
+      {
+        "id": "q27",
+        "rank": 1,
+        "top": [
+          "payments#split-payments"
+        ],
+        "top_score": 15.73
+      },
+      {
+        "id": "q28",
+        "rank": 1,
+        "top": [
+          "cancellations#force-majeure"
+        ],
+        "top_score": 12.98
+      }
+    ],
+    "gate_rows": [
+      {
+        "id": "q01",
+        "answerable": true,
+        "top_score": 13.43,
+        "gated": false
+      },
+      {
+        "id": "q02",
+        "answerable": true,
+        "top_score": 9.19,
+        "gated": false
+      },
+      {
+        "id": "q03",
+        "answerable": true,
+        "top_score": 16.28,
+        "gated": false
+      },
+      {
+        "id": "q04",
+        "answerable": true,
+        "top_score": 13.32,
+        "gated": false
+      },
+      {
+        "id": "q05",
+        "answerable": true,
+        "top_score": 19.42,
+        "gated": false
+      },
+      {
+        "id": "q06",
+        "answerable": true,
+        "top_score": 5.68,
+        "gated": false
+      },
+      {
+        "id": "q07",
+        "answerable": true,
+        "top_score": 7.91,
+        "gated": false
+      },
+      {
+        "id": "q08",
+        "answerable": true,
+        "top_score": 22.12,
+        "gated": false
+      },
+      {
+        "id": "q09",
+        "answerable": true,
+        "top_score": 11.77,
+        "gated": false
+      },
+      {
+        "id": "q10",
+        "answerable": true,
+        "top_score": 9.07,
+        "gated": false
+      },
+      {
+        "id": "q11",
+        "answerable": true,
+        "top_score": 7.0,
+        "gated": false
+      },
+      {
+        "id": "q12",
+        "answerable": true,
+        "top_score": 15.01,
+        "gated": false
+      },
+      {
+        "id": "q13",
+        "answerable": true,
+        "top_score": 13.65,
+        "gated": false
+      },
+      {
+        "id": "q14",
+        "answerable": true,
+        "top_score": 8.59,
+        "gated": false
+      },
+      {
+        "id": "q15",
+        "answerable": true,
+        "top_score": 12.98,
+        "gated": false
+      },
+      {
+        "id": "q16",
+        "answerable": true,
+        "top_score": 8.05,
+        "gated": false
+      },
+      {
+        "id": "q17",
+        "answerable": true,
+        "top_score": 12.6,
+        "gated": false
+      },
+      {
+        "id": "q18",
+        "answerable": true,
+        "top_score": 10.37,
+        "gated": false
+      },
+      {
+        "id": "q19",
+        "answerable": true,
+        "top_score": 11.09,
+        "gated": false
+      },
+      {
+        "id": "q20",
+        "answerable": true,
+        "top_score": 8.35,
+        "gated": false
+      },
+      {
+        "id": "q21",
+        "answerable": true,
+        "top_score": 11.03,
+        "gated": false
+      },
+      {
+        "id": "q22",
+        "answerable": true,
+        "top_score": 8.38,
+        "gated": false
+      },
+      {
+        "id": "q23",
+        "answerable": true,
+        "top_score": 6.36,
+        "gated": false
+      },
+      {
+        "id": "q24",
+        "answerable": true,
+        "top_score": 10.46,
+        "gated": false
+      },
+      {
+        "id": "q25",
+        "answerable": true,
+        "top_score": 11.4,
+        "gated": false
+      },
+      {
+        "id": "q26",
+        "answerable": true,
+        "top_score": 15.64,
+        "gated": false
+      },
+      {
+        "id": "q27",
+        "answerable": true,
+        "top_score": 15.73,
+        "gated": false
+      },
+      {
+        "id": "q28",
+        "answerable": true,
+        "top_score": 12.98,
+        "gated": false
+      },
+      {
+        "id": "u01",
+        "answerable": false,
+        "top_score": 3.91,
+        "gated": true
+      },
+      {
+        "id": "u02",
+        "answerable": false,
+        "top_score": 7.82,
+        "gated": false
+      },
+      {
+        "id": "u03",
+        "answerable": false,
+        "top_score": 4.02,
+        "gated": true
+      },
+      {
+        "id": "u04",
+        "answerable": false,
+        "top_score": 4.08,
+        "gated": true
+      },
+      {
+        "id": "u05",
+        "answerable": false,
+        "top_score": 2.5,
+        "gated": true
+      },
+      {
+        "id": "u06",
+        "answerable": false,
+        "top_score": 3.65,
+        "gated": true
+      }
+    ]
+  },
+  "generation": {
+    "model": "claude-haiku-5-5",
+    "questions": 34,
+    "answered_with_expected_citation": 1.0,
+    "answers_with_invalid_citations": 0,
+    "wrong_refusals_on_answerable": 0,
+    "correct_refusals_on_unanswerable": 1.0,
+    "refused_by_gate_for_free": 5,
+    "overall_correct": 1.0,
+    "total_cost_usd": 0.004048,
+    "avg_cost_usd_per_question": 0.000119,
+    "avg_latency_s": 0.91,
+    "total_input_tokens": 16383,
+    "total_output_tokens": 4819,
+    "rows": [
+      {
+        "question": "A client cancels their package 20 days before departure. How much do we charge?",
+        "text": "A cancellation received 20 days before departure falls in the 15 to 44 day range, so 50% of the package price is charged [cancellations#vacation-packages]. The cancellation must be sent by email to the assigned advisor, since phone calls alone do not count as a written cancellation [cancellations#vacation-packages].",
+        "citations": [
+          "cancellations#vacation-packages"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 710,
+        "output_tokens": 204,
+        "cost_usd": 0.000173,
+        "latency_s": 1.62075740005821,
+        "id": "q01",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "How much deposit is needed to confirm a vacation package?",
+        "text": "A vacation package requires a 30% deposit to confirm the booking [payments#deposit]. The deposit must be paid within 48 hours of the quote being accepted, or the held space is released [payments#deposit].",
+        "citations": [
+          "payments#deposit"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 644,
+        "output_tokens": 69,
+        "cost_usd": 9.89e-05,
+        "latency_s": 0.6854959999909624,
+        "id": "q02",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "Can a client pay the balance in monthly installments?",
+        "text": "Yes, after the deposit, clients may pay the balance in up to 4 monthly installments [payments#installment-plans]. The full balance must be paid no later than 30 days before departure [payments#installment-plans].",
+        "citations": [
+          "payments#installment-plans"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 545,
+        "output_tokens": 70,
+        "cost_usd": 8.95e-05,
+        "latency_s": 0.6967789999907836,
+        "id": "q03",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "Is there a fee to cancel a refundable flight ticket?",
+        "text": "Yes, Puerto Azul Travel adds a service fee of USD 25 per ticket for processing any cancellation, even when the fare itself is refundable [cancellations#flight-only-bookings].",
+        "citations": [
+          "cancellations#flight-only-bookings"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 606,
+        "output_tokens": 67,
+        "cost_usd": 9.41e-05,
+        "latency_s": 0.7470817000139505,
+        "id": "q04",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "A customer misspelled one letter of their name yesterday. Is the correction free?",
+        "text": "A one-letter misspelling is a minor correction, which is free if requested within 24 hours of booking [changes#name-corrections]. Since \"yesterday\" may be more than 24 hours after the booking, the exact booking time matters. After 24 hours, the airline's name change rules apply, and many airlines treat any name change as a new ticket [changes#name-corrections]. Advisors can process name corrections, but any change that waives a fee needs supervisor approval [changes#who-can-approve-changes].",
+        "citations": [
+          "changes#name-corrections",
+          "changes#who-can-approve-changes"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 499,
+        "output_tokens": 332,
+        "cost_usd": 0.00021590000000000002,
+        "latency_s": 1.726524299941957,
+        "id": "q05",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "What does it cost to move a package to different dates?",
+        "text": "A date change costs a USD 40 change fee per booking, plus any price difference from hotels or airlines [changes#date-changes]. Date changes are allowed up to 21 days before departure, subject to availability [changes#date-changes]. Inside 21 days before departure, a date change is treated as a cancellation followed by a new booking [changes#date-changes].",
+        "citations": [
+          "changes#date-changes"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 661,
+        "output_tokens": 414,
+        "cost_usd": 0.0002731,
+        "latency_s": 1.8492002000566572,
+        "id": "q06",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "How long until a client gets money back from an airline cancellation?",
+        "text": "Refunds that depend on a supplier, such as an airline, are paid to the client only after the supplier pays the agency, which can take 30 to 90 days [refunds#refund-timelines]. Refunds for agency fees are processed within 10 business days [refunds#refund-timelines].",
+        "citations": [
+          "refunds#refund-timelines"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 596,
+        "output_tokens": 236,
+        "cost_usd": 0.0001776,
+        "latency_s": 1.226008199970238,
+        "id": "q07",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "Can we refund a cash payment to the client's brother's bank account?",
+        "text": "No. Cash payments are refunded by bank transfer to an account in the client's name [refunds#refund-method]. The agency never refunds to a third party's account [refunds#refund-method].",
+        "citations": [
+          "refunds#refund-method"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 528,
+        "output_tokens": 144,
+        "cost_usd": 0.00012480000000000002,
+        "latency_s": 1.097099700011313,
+        "id": "q08",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "Is the travel insurance premium refundable?",
+        "text": "No, travel insurance premiums are not refundable. [refunds#non-refundable-items]",
+        "citations": [
+          "refunds#non-refundable-items"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 536,
+        "output_tokens": 88,
+        "cost_usd": 9.76e-05,
+        "latency_s": 0.8777235000161454,
+        "id": "q09",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "Who decides how many bags a passenger can check?",
+        "text": "Each airline sets baggage allowances, and they depend on the fare type [baggage#who-sets-baggage-rules]. The agency does not set or guarantee these allowances, so advisors must copy the allowance shown in the airline reservation into the client's itinerary [baggage#who-sets-baggage-rules].",
+        "citations": [
+          "baggage#who-sets-baggage-rules"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 580,
+        "output_tokens": 275,
+        "cost_usd": 0.0001955,
+        "latency_s": 1.4299490000121295,
+        "id": "q10",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "A client's suitcase did not arrive. What should they do?",
+        "text": "The client must file a report with the airline at the airport before leaving the arrivals area [baggage#lost-or-delayed-baggage]. The advisor can then help follow up with the airline using the report number [baggage#lost-or-delayed-baggage].",
+        "citations": [
+          "baggage#lost-or-delayed-baggage"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 579,
+        "output_tokens": 233,
+        "cost_usd": 0.0001744,
+        "latency_s": 1.249289600062184,
+        "id": "q11",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "What is the difference between the Basic and Plus insurance plans?",
+        "text": "The Basic plan covers medical assistance abroad and lost baggage [insurance#plans-offered]. The Plus plan includes everything in Basic, plus trip cancellation for covered reasons, such as a documented illness [insurance#plans-offered].",
+        "citations": [
+          "insurance#plans-offered"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 618,
+        "output_tokens": 84,
+        "cost_usd": 0.00010380000000000002,
+        "latency_s": 0.7557881999528036,
+        "id": "q12",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "Can a client add the Plus insurance a week after paying the deposit?",
+        "text": "No, the Plus plan can't be added a week after paying the deposit. Insurance must be bought at the same time as the trip or within 72 hours of paying the deposit, and after that the Plus plan can no longer be added [insurance#when-to-buy].",
+        "citations": [
+          "insurance#when-to-buy"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 537,
+        "output_tokens": 173,
+        "cost_usd": 0.0001402,
+        "latency_s": 1.095971000031568,
+        "id": "q13",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "Does the agency tell clients whether they need a visa?",
+        "text": "The agency does not give legal or immigration advice, and entry requirements and visa rules are set by each country and can change [documents#agency-role]. Advisors must tell clients to confirm requirements with the official embassy or consulate of the destination before paying for the trip [documents#agency-role]. The agency can help schedule visa appointments and fill out forms for USD 35 per application, but it cannot guarantee approval [documents#visa-processing-support].",
+        "citations": [
+          "documents#agency-role",
+          "documents#visa-processing-support"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 565,
+        "output_tokens": 406,
+        "cost_usd": 0.0002595,
+        "latency_s": 1.8722184000071138,
+        "id": "q14",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "How much do we charge to help with a visa application?",
+        "text": "The agency charges USD 35 per application to schedule visa appointments and fill out forms [documents#visa-processing-support]. The agency cannot guarantee that a visa will be approved [documents#visa-processing-support].",
+        "citations": [
+          "documents#visa-processing-support"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 536,
+        "output_tokens": 72,
+        "cost_usd": 8.96e-05,
+        "latency_s": 0.6946308000478894,
+        "id": "q15",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "How many travelers make a group booking?",
+        "text": "A group booking is 10 or more travelers on the same itinerary and dates [groups#what-counts-as-a-group].",
+        "citations": [
+          "groups#what-counts-as-a-group"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 493,
+        "output_tokens": 40,
+        "cost_usd": 6.930000000000002e-05,
+        "latency_s": 0.6232111999997869,
+        "id": "q16",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "When is the rooming list due for a group?",
+        "text": "The rooming list must be sent by the group organizer no later than 45 days before departure [groups#rooming-list].",
+        "citations": [
+          "groups#rooming-list"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 472,
+        "output_tokens": 37,
+        "cost_usd": 6.57e-05,
+        "latency_s": 0.6339941999176517,
+        "id": "q17",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "Does the group organizer travel for free?",
+        "text": "Yes, but only for larger groups. Groups of 20 or more travelers receive one free place for the organizer, applied to the lowest-priced room category [groups#group-discounts].",
+        "citations": [
+          "groups#group-discounts"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 471,
+        "output_tokens": 214,
+        "cost_usd": 0.0001541,
+        "latency_s": 1.20253870007582,
+        "id": "q18",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "What commission does an advisor earn on travel insurance?",
+        "text": "Advisors earn 15% of the insurance premium as commission [commissions#commission-rates].",
+        "citations": [
+          "commissions#commission-rates"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 553,
+        "output_tokens": 32,
+        "cost_usd": 7.130000000000001e-05,
+        "latency_s": 0.6330169000430033,
+        "id": "q19",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "When are advisor commissions paid?",
+        "text": "Commissions are paid monthly, on the 15th, for sales whose travel was completed during the previous month [commissions#when-commissions-are-paid]. Commissions are not paid on bookings that are still pending travel [commissions#when-commissions-are-paid].",
+        "citations": [
+          "commissions#when-commissions-are-paid"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 550,
+        "output_tokens": 86,
+        "cost_usd": 9.8e-05,
+        "latency_s": 0.7328797000227496,
+        "id": "q20",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "What happens to my commission if the sale is cancelled after I was paid?",
+        "text": "If a sale is cancelled after its commission was paid, the commission is deducted from the advisor's next payment [commissions#cancellations-and-clawback].",
+        "citations": [
+          "commissions#cancellations-and-clawback"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 524,
+        "output_tokens": 51,
+        "cost_usd": 7.790000000000001e-05,
+        "latency_s": 0.6541588000254706,
+        "id": "q21",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "How do I fix a mistake on an invoice that was already issued?",
+        "text": "An issued invoice is never edited or deleted. [invoicing#correcting-an-invoice] Instead, the advisor issues a credit note that references the original invoice. [invoicing#correcting-an-invoice] Then the advisor issues a new invoice with the correct data. [invoicing#correcting-an-invoice] Credit notes require supervisor approval. [invoicing#correcting-an-invoice]",
+        "citations": [
+          "invoicing#correcting-an-invoice"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 628,
+        "output_tokens": 225,
+        "cost_usd": 0.0001753,
+        "latency_s": 1.179609699989669,
+        "id": "q22",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "A hotel says it has no record of our client's reservation tonight. What do we do?",
+        "text": "Have the client call the agency's 24/7 emergency line, since a missing hotel reservation during a trip is handled there [escalations#problems-during-a-trip]. The on-call advisor must answer within 15 minutes [escalations#problems-during-a-trip]. If the hotel cannot honor a confirmed reservation, the advisor books an equivalent or better hotel [escalations#alternative-arrangements]. The agency covers the price difference and then claims it back from the original supplier [escalations#alternative-arrangements].",
+        "citations": [
+          "escalations#problems-during-a-trip",
+          "escalations#alternative-arrangements"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 635,
+        "output_tokens": 525,
+        "cost_usd": 0.000326,
+        "latency_s": 2.155998899950646,
+        "id": "q23",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "When should an issue be escalated to the director?",
+        "text": "The supervisor informs the agency director if the issue affects a group or costs more than USD 500 to fix [escalations#escalation-levels].",
+        "citations": [
+          "escalations#escalation-levels"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 317,
+        "output_tokens": 121,
+        "cost_usd": 9.22e-05,
+        "latency_s": 0.8685840999241918,
+        "id": "q24",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "Can an agent see sales from other advisors?",
+        "text": "No, an agent sees only their own sales [office#roles]. Supervisors see every sale in their branch [office#roles].",
+        "citations": [
+          "office#roles"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 573,
+        "output_tokens": 76,
+        "cost_usd": 9.530000000000001e-05,
+        "latency_s": 0.7485982000362128,
+        "id": "q25",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "Are branches open on Saturday?",
+        "text": "Yes, branches are open on Saturday from 9:00 to 13:00. [office#office-hours]",
+        "citations": [
+          "office#office-hours"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 591,
+        "output_tokens": 35,
+        "cost_usd": 7.659999999999999e-05,
+        "latency_s": 0.6411416999762878,
+        "id": "q26",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "A client wants to pay part in cash and part by card. Is that allowed?",
+        "text": "Yes, a single sale can be paid with more than one method, such as part in cash and part by card [payments#split-payments]. Each payment is recorded separately, and the remaining balance updates after every payment [payments#split-payments].",
+        "citations": [
+          "payments#split-payments"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 561,
+        "output_tokens": 150,
+        "cost_usd": 0.0001311,
+        "latency_s": 1.0894076999975368,
+        "id": "q27",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "A hurricane closed the airport at the destination. Do we still charge our service fee?",
+        "text": "If a trip cannot happen because of a hurricane, the agency waives its own service fees [cancellations#force-majeure]. Supplier charges still apply, and advisors must request supplier credits or refunds on the client's behalf [cancellations#force-majeure].",
+        "citations": [
+          "cancellations#force-majeure"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 601,
+        "output_tokens": 345,
+        "cost_usd": 0.0002326,
+        "latency_s": 1.6207922999747097,
+        "id": "q28",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "What is the agency's policy on bringing pets on a cruise?",
+        "text": "I don't know based on the knowledge base.",
+        "citations": [],
+        "invalid_citations": [],
+        "refused": true,
+        "gated": true,
+        "model": null,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost_usd": 0.0,
+        "latency_s": 0.0004181999247521162,
+        "id": "u01",
+        "answerable": false,
+        "cited_expected": null,
+        "correct": true
+      },
+      {
+        "question": "How many vacation days do employees get per year?",
+        "text": "I don't know based on the knowledge base.",
+        "citations": [],
+        "invalid_citations": [],
+        "refused": true,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 674,
+        "output_tokens": 15,
+        "cost_usd": 7.49e-05,
+        "latency_s": 0.5520827999571338,
+        "id": "u02",
+        "answerable": false,
+        "cited_expected": null,
+        "correct": true
+      },
+      {
+        "question": "Which airline has the best on-time record to Madrid?",
+        "text": "I don't know based on the knowledge base.",
+        "citations": [],
+        "invalid_citations": [],
+        "refused": true,
+        "gated": true,
+        "model": null,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost_usd": 0.0,
+        "latency_s": 0.0002872999757528305,
+        "id": "u03",
+        "answerable": false,
+        "cited_expected": null,
+        "correct": true
+      },
+      {
+        "question": "What exchange rate do we use for euros?",
+        "text": "I don't know based on the knowledge base.",
+        "citations": [],
+        "invalid_citations": [],
+        "refused": true,
+        "gated": true,
+        "model": null,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost_usd": 0.0,
+        "latency_s": 0.00018079997971653938,
+        "id": "u04",
+        "answerable": false,
+        "cited_expected": null,
+        "correct": true
+      },
+      {
+        "question": "Can we sell train tickets in Europe?",
+        "text": "I don't know based on the knowledge base.",
+        "citations": [],
+        "invalid_citations": [],
+        "refused": true,
+        "gated": true,
+        "model": null,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost_usd": 0.0,
+        "latency_s": 0.0001626999583095312,
+        "id": "u05",
+        "answerable": false,
+        "cited_expected": null,
+        "correct": true
+      },
+      {
+        "question": "What is the dress code for advisors at the branch?",
+        "text": "I don't know based on the knowledge base.",
+        "citations": [],
+        "invalid_citations": [],
+        "refused": true,
+        "gated": true,
+        "model": null,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost_usd": 0.0,
+        "latency_s": 0.00020290003158152103,
+        "id": "u06",
+        "answerable": false,
+        "cited_expected": null,
+        "correct": true
+      }
+    ]
+  }
+}

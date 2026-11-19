@@ -1,0 +1,438 @@
+{
+  "retrieval": {
+    "answerable": 10,
+    "unanswerable": 3,
+    "top_k": 4,
+    "hit_at_1": 0.9,
+    "hit_at_k": 1.0,
+    "mrr": 0.95,
+    "gate_min_score": 4.5,
+    "gate_blocked_answerable": 0,
+    "gate_blocked_unanswerable": 2,
+    "rows": [
+      {
+        "id": "h01",
+        "rank": 1,
+        "top": [
+          "changes#date-changes"
+        ],
+        "top_score": 8.57
+      },
+      {
+        "id": "h02",
+        "rank": 1,
+        "top": [
+          "baggage#lost-or-delayed-baggage"
+        ],
+        "top_score": 16.1
+      },
+      {
+        "id": "h03",
+        "rank": 1,
+        "top": [
+          "payments#installment-plans"
+        ],
+        "top_score": 7.52
+      },
+      {
+        "id": "h04",
+        "rank": 1,
+        "top": [
+          "documents#minors-traveling"
+        ],
+        "top_score": 8.23
+      },
+      {
+        "id": "h05",
+        "rank": 1,
+        "top": [
+          "changes#who-can-approve-changes"
+        ],
+        "top_score": 7.41
+      },
+      {
+        "id": "h06",
+        "rank": 1,
+        "top": [
+          "refunds#supplier-credits"
+        ],
+        "top_score": 10.63
+      },
+      {
+        "id": "h07",
+        "rank": 1,
+        "top": [
+          "commissions#shared-sales"
+        ],
+        "top_score": 19.3
+      },
+      {
+        "id": "h08",
+        "rank": 1,
+        "top": [
+          "escalations#problems-during-a-trip"
+        ],
+        "top_score": 15.51
+      },
+      {
+        "id": "h09",
+        "rank": 1,
+        "top": [
+          "invoicing#receipts-for-each-payment"
+        ],
+        "top_score": 13.17
+      },
+      {
+        "id": "h10",
+        "rank": 2,
+        "top": [
+          "changes#date-changes"
+        ],
+        "top_score": 6.13
+      }
+    ],
+    "gate_rows": [
+      {
+        "id": "h01",
+        "answerable": true,
+        "top_score": 8.57,
+        "gated": false
+      },
+      {
+        "id": "h02",
+        "answerable": true,
+        "top_score": 16.1,
+        "gated": false
+      },
+      {
+        "id": "h03",
+        "answerable": true,
+        "top_score": 7.52,
+        "gated": false
+      },
+      {
+        "id": "h04",
+        "answerable": true,
+        "top_score": 8.23,
+        "gated": false
+      },
+      {
+        "id": "h05",
+        "answerable": true,
+        "top_score": 7.41,
+        "gated": false
+      },
+      {
+        "id": "h06",
+        "answerable": true,
+        "top_score": 10.63,
+        "gated": false
+      },
+      {
+        "id": "h07",
+        "answerable": true,
+        "top_score": 19.3,
+        "gated": false
+      },
+      {
+        "id": "h08",
+        "answerable": true,
+        "top_score": 15.51,
+        "gated": false
+      },
+      {
+        "id": "h09",
+        "answerable": true,
+        "top_score": 13.17,
+        "gated": false
+      },
+      {
+        "id": "h10",
+        "answerable": true,
+        "top_score": 6.13,
+        "gated": false
+      },
+      {
+        "id": "h11",
+        "answerable": false,
+        "top_score": 5.03,
+        "gated": false
+      },
+      {
+        "id": "h12",
+        "answerable": false,
+        "top_score": 3.91,
+        "gated": true
+      },
+      {
+        "id": "h13",
+        "answerable": false,
+        "top_score": 3.63,
+        "gated": true
+      }
+    ]
+  },
+  "generation": {
+    "model": "claude-haiku-5-5",
+    "questions": 13,
+    "answered_with_expected_citation": 1.0,
+    "answers_with_invalid_citations": 0,
+    "wrong_refusals_on_answerable": 0,
+    "correct_refusals_on_unanswerable": 1.0,
+    "refused_by_gate_for_free": 2,
+    "overall_correct": 1.0,
+    "total_cost_usd": 0.002039,
+    "avg_cost_usd_per_question": 0.000157,
+    "avg_latency_s": 1.23,
+    "total_input_tokens": 6512,
+    "total_output_tokens": 2776,
+    "rows": [
+      {
+        "question": "My customer wants to postpone her honeymoon trip by a month. Is that possible and what does it cost?",
+        "text": "Date changes on vacation packages are allowed up to 21 days before departure, subject to availability [changes#date-changes]. The agency charges a USD 40 change fee per booking, plus any price difference from hotels or airlines [changes#date-changes]. If the change falls inside 21 days before departure, it is treated as a cancellation followed by a new booking [changes#date-changes]. Advisors can process date changes, but waiving the fee requires supervisor approval [changes#who-can-approve-changes].",
+        "citations": [
+          "changes#date-changes",
+          "changes#who-can-approve-changes"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 602,
+        "output_tokens": 501,
+        "cost_usd": 0.00031069999999999996,
+        "latency_s": 2.5793694000458345,
+        "id": "h01",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "The airline lost my client's luggage. How can we help?",
+        "text": "The client should file a report with the airline at the airport before leaving the arrivals area [baggage#lost-or-delayed-baggage]. Once the client has the report number, the advisor can help follow up with the airline using it [baggage#lost-or-delayed-baggage].",
+        "citations": [
+          "baggage#lost-or-delayed-baggage"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 585,
+        "output_tokens": 230,
+        "cost_usd": 0.0001735,
+        "latency_s": 1.3254149000858888,
+        "id": "h02",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "If a trip is booked two weeks before departure, can the client still pay in parts?",
+        "text": "No, a booking made two weeks before departure must be paid in full at the time of booking, so installment payments are not available [payments#installment-plans]. The split-payment option lets one sale be paid with more than one method, such as cash and card, but the sources don't say it changes the full-payment requirement [payments#split-payments].",
+        "citations": [
+          "payments#installment-plans",
+          "payments#split-payments"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 626,
+        "output_tokens": 483,
+        "cost_usd": 0.0003041,
+        "latency_s": 2.6975052000489086,
+        "id": "h03",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "A dad is flying alone with his kids. What should I remind him about?",
+        "text": "Remind him to check which permits or notarized authorizations are required for minors traveling with only one parent, and to carry them on the trip [documents#minors-traveling]. You should also remind him to check the expiration date of his and the children's passports, since many destinations and airlines refuse travelers whose passports expire soon [documents#passport-reminder].",
+        "citations": [
+          "documents#minors-traveling",
+          "documents#passport-reminder"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 660,
+        "output_tokens": 317,
+        "cost_usd": 0.0002245,
+        "latency_s": 1.6189339999109507,
+        "id": "h04",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "Who can approve waiving the change fee for a loyal client?",
+        "text": "Changes that waive a fee require supervisor approval. [changes#who-can-approve-changes]",
+        "citations": [
+          "changes#who-can-approve-changes"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 607,
+        "output_tokens": 105,
+        "cost_usd": 0.0001132,
+        "latency_s": 0.9193791999714449,
+        "id": "h05",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "Can we keep the reimbursement as credit with the hotel instead of cash?",
+        "text": "If the hotel offers a credit instead of a refund, the advisor must explain in writing how long the credit is valid and any conditions for using it [refunds#supplier-credits]. The client chooses whether to accept the credit or wait for a refund, but only when the supplier allows both options [refunds#supplier-credits]. Otherwise, refunds go back to the original payment method, and cash payments are refunded by bank transfer to an account in the client's name [refunds#refund-method].",
+        "citations": [
+          "refunds#supplier-credits",
+          "refunds#refund-method"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 603,
+        "output_tokens": 591,
+        "cost_usd": 0.00035580000000000003,
+        "latency_s": 2.374934900086373,
+        "id": "h06",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "Two of us worked on the same sale. How is the commission split?",
+        "text": "When two advisors work on the same sale, the commission is split 50/50 unless a supervisor records a different split in the sale before travel [commissions#shared-sales].",
+        "citations": [
+          "commissions#shared-sales"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 547,
+        "output_tokens": 53,
+        "cost_usd": 8.120000000000001e-05,
+        "latency_s": 0.6456379999872297,
+        "id": "h07",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "How fast must someone pick up the phone when a traveler calls with an emergency?",
+        "text": "The on-call advisor must answer calls to the 24/7 emergency line within 15 minutes. [escalations#problems-during-a-trip]",
+        "citations": [
+          "escalations#problems-during-a-trip"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 658,
+        "output_tokens": 147,
+        "cost_usd": 0.0001393,
+        "latency_s": 1.0161322000203654,
+        "id": "h08",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "Does every installment get its own receipt?",
+        "text": "Yes, every payment, including each installment, gets its own internal receipt showing the amount, method, date, and remaining balance. [invoicing#receipts-for-each-payment]",
+        "citations": [
+          "invoicing#receipts-for-each-payment"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 488,
+        "output_tokens": 123,
+        "cost_usd": 0.00011030000000000001,
+        "latency_s": 0.8916230000322685,
+        "id": "h09",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "Our group dropped from 12 to 8 people. Does the price change?",
+        "text": "The group price may be recalculated because it has fallen below 10 travelers [groups#cancellations-inside-a-group]. Group cancellations otherwise follow the group contract [cancellations#group-bookings].",
+        "citations": [
+          "groups#cancellations-inside-a-group",
+          "cancellations#group-bookings"
+        ],
+        "invalid_citations": [],
+        "refused": false,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 583,
+        "output_tokens": 211,
+        "cost_usd": 0.00016380000000000002,
+        "latency_s": 1.4017887000227347,
+        "id": "h10",
+        "answerable": true,
+        "cited_expected": true,
+        "correct": true
+      },
+      {
+        "question": "Do you offer airport lounge access as part of packages?",
+        "text": "I don't know based on the knowledge base.",
+        "citations": [],
+        "invalid_citations": [],
+        "refused": true,
+        "gated": false,
+        "model": "claude-haiku-5-5",
+        "input_tokens": 553,
+        "output_tokens": 15,
+        "cost_usd": 6.280000000000001e-05,
+        "latency_s": 0.580430299974978,
+        "id": "h11",
+        "answerable": false,
+        "cited_expected": null,
+        "correct": true
+      },
+      {
+        "question": "What is the agency's parental leave policy for staff?",
+        "text": "I don't know based on the knowledge base.",
+        "citations": [],
+        "invalid_citations": [],
+        "refused": true,
+        "gated": true,
+        "model": null,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost_usd": 0.0,
+        "latency_s": 0.000304599991068244,
+        "id": "h12",
+        "answerable": false,
+        "cited_expected": null,
+        "correct": true
+      },
+      {
+        "question": "Which hotel in Roat\u00e1n has the best reviews?",
+        "text": "I don't know based on the knowledge base.",
+        "citations": [],
+        "invalid_citations": [],
+        "refused": true,
+        "gated": true,
+        "model": null,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cost_usd": 0.0,
+        "latency_s": 0.00035580003168433905,
+        "id": "h13",
+        "answerable": false,
+        "cited_expected": null,
+        "correct": true
+      }
+    ]
+  }
+}
