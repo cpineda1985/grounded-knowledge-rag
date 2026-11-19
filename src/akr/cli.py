@@ -4,11 +4,28 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 from pathlib import Path
 
 from akr.answer import KnowledgeBase
 from akr.evals import generation_eval, load_questions, retrieval_eval
+
+
+def load_dotenv(path: str | Path = ".env") -> None:
+    """Load KEY=VALUE lines from a .env file. Variables already set in the environment win."""
+    path = Path(path)
+    if not path.is_file():
+        return
+    for line in path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        key = key.removeprefix("export ").strip()
+        value = value.strip().strip('"').strip("'")
+        if key and value:
+            os.environ.setdefault(key, value)
 
 
 def cmd_search(args) -> int:
@@ -93,6 +110,7 @@ def main(argv: list[str] | None = None) -> int:
     p.set_defaults(func=cmd_eval)
 
     args = parser.parse_args(argv)
+    load_dotenv(Path(args.config).resolve().parent / ".env")
     return args.func(args)
 
 

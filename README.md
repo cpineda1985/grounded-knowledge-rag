@@ -53,11 +53,11 @@ git clone https://github.com/cpineda1985/grounded-knowledge-rag.git
 cd grounded-knowledge-rag
 pip install -e ".[dev]"
 
-pytest                                   # 13 tests, no API key needed
+pytest                                   # 15 tests, no API key needed
 akr search "Can a client pay in monthly installments?"   # retrieval only, free
 akr eval --retrieval-only                # retrieval metrics, free
 
-export ANTHROPIC_API_KEY=sk-ant-...      # needed from here on
+cp .env.example .env                     # then put your key in .env (git ignores it)
 akr ask "Can a client pay in monthly installments?"
 akr eval                                 # full eval: retrieval + answers + cost
 ```
