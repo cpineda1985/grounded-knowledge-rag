@@ -1,0 +1,29 @@
+# Point `corpus.path` at any folder of Markdown files to reuse the engine for another domain.
+
+[corpus]
+path = "data/sample_agency"
+
+[assistant]
+# Who the answers are for. Used in the system prompt; change it with the corpus.
+audience = "travel agency staff"
+
+[retrieval]
+top_k = 4
+# Expand everyday words with the corpus vocabulary from <corpus>/glossary.toml, if present.
+use_glossary = true
+# Questions whose best BM25 score is below this are refused without calling the model ($0).
+# Tune it with `akr eval --retrieval-only`.
+min_score = 4.5
+
+[llm]
+model = "claude-haiku-5-5"
+max_tokens = 600
+
+# USD per million tokens. Check current prices at https://platform.claude.com/docs/en/about-claude/pricing
+[pricing.claude-haiku-5-5]
+input_per_mtok = 0.10
+output_per_mtok = 0.50
+
+[pricing.claude-sonnet-5-5]
+input_per_mtok = 2.00
+output_per_mtok = 10.00

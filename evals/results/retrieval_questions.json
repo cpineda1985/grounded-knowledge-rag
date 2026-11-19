@@ -1,0 +1,445 @@
+{
+  "retrieval": {
+    "answerable": 28,
+    "unanswerable": 6,
+    "top_k": 4,
+    "hit_at_1": 0.8571428571428571,
+    "hit_at_k": 1.0,
+    "mrr": 0.9107142857142857,
+    "gate_min_score": 4.5,
+    "gate_blocked_answerable": 0,
+    "gate_blocked_unanswerable": 5,
+    "rows": [
+      {
+        "id": "q01",
+        "rank": 1,
+        "top": [
+          "cancellations#vacation-packages"
+        ],
+        "top_score": 13.43
+      },
+      {
+        "id": "q02",
+        "rank": 1,
+        "top": [
+          "payments#deposit"
+        ],
+        "top_score": 9.19
+      },
+      {
+        "id": "q03",
+        "rank": 1,
+        "top": [
+          "payments#installment-plans"
+        ],
+        "top_score": 16.28
+      },
+      {
+        "id": "q04",
+        "rank": 1,
+        "top": [
+          "cancellations#flight-only-bookings"
+        ],
+        "top_score": 13.32
+      },
+      {
+        "id": "q05",
+        "rank": 1,
+        "top": [
+          "changes#name-corrections"
+        ],
+        "top_score": 19.42
+      },
+      {
+        "id": "q06",
+        "rank": 2,
+        "top": [
+          "cancellations#vacation-packages"
+        ],
+        "top_score": 5.68
+      },
+      {
+        "id": "q07",
+        "rank": 3,
+        "top": [
+          "refunds#supplier-credits"
+        ],
+        "top_score": 7.91
+      },
+      {
+        "id": "q08",
+        "rank": 1,
+        "top": [
+          "refunds#refund-method"
+        ],
+        "top_score": 22.12
+      },
+      {
+        "id": "q09",
+        "rank": 1,
+        "top": [
+          "refunds#non-refundable-items"
+        ],
+        "top_score": 11.77
+      },
+      {
+        "id": "q10",
+        "rank": 3,
+        "top": [
+          "baggage#extra-baggage"
+        ],
+        "top_score": 9.07
+      },
+      {
+        "id": "q11",
+        "rank": 3,
+        "top": [
+          "baggage#who-sets-baggage-rules"
+        ],
+        "top_score": 7.0
+      },
+      {
+        "id": "q12",
+        "rank": 1,
+        "top": [
+          "insurance#plans-offered"
+        ],
+        "top_score": 15.01
+      },
+      {
+        "id": "q13",
+        "rank": 1,
+        "top": [
+          "insurance#when-to-buy"
+        ],
+        "top_score": 13.65
+      },
+      {
+        "id": "q14",
+        "rank": 1,
+        "top": [
+          "documents#agency-role"
+        ],
+        "top_score": 8.59
+      },
+      {
+        "id": "q15",
+        "rank": 1,
+        "top": [
+          "documents#visa-processing-support"
+        ],
+        "top_score": 12.98
+      },
+      {
+        "id": "q16",
+        "rank": 1,
+        "top": [
+          "groups#what-counts-as-a-group"
+        ],
+        "top_score": 8.05
+      },
+      {
+        "id": "q17",
+        "rank": 1,
+        "top": [
+          "groups#rooming-list"
+        ],
+        "top_score": 12.6
+      },
+      {
+        "id": "q18",
+        "rank": 1,
+        "top": [
+          "groups#group-discounts"
+        ],
+        "top_score": 10.37
+      },
+      {
+        "id": "q19",
+        "rank": 1,
+        "top": [
+          "commissions#commission-rates"
+        ],
+        "top_score": 11.09
+      },
+      {
+        "id": "q20",
+        "rank": 1,
+        "top": [
+          "commissions#when-commissions-are-paid"
+        ],
+        "top_score": 8.35
+      },
+      {
+        "id": "q21",
+        "rank": 1,
+        "top": [
+          "commissions#cancellations-and-clawback"
+        ],
+        "top_score": 11.03
+      },
+      {
+        "id": "q22",
+        "rank": 1,
+        "top": [
+          "invoicing#correcting-an-invoice"
+        ],
+        "top_score": 8.38
+      },
+      {
+        "id": "q23",
+        "rank": 1,
+        "top": [
+          "escalations#problems-during-a-trip"
+        ],
+        "top_score": 6.36
+      },
+      {
+        "id": "q24",
+        "rank": 1,
+        "top": [
+          "escalations#escalation-levels"
+        ],
+        "top_score": 10.46
+      },
+      {
+        "id": "q25",
+        "rank": 1,
+        "top": [
+          "office#roles"
+        ],
+        "top_score": 11.4
+      },
+      {
+        "id": "q26",
+        "rank": 1,
+        "top": [
+          "office#office-hours"
+        ],
+        "top_score": 15.64
+      },
+      {
+        "id": "q27",
+        "rank": 1,
+        "top": [
+          "payments#split-payments"
+        ],
+        "top_score": 15.73
+      },
+      {
+        "id": "q28",
+        "rank": 1,
+        "top": [
+          "cancellations#force-majeure"
+        ],
+        "top_score": 12.98
+      }
+    ],
+    "gate_rows": [
+      {
+        "id": "q01",
+        "answerable": true,
+        "top_score": 13.43,
+        "gated": false
+      },
+      {
+        "id": "q02",
+        "answerable": true,
+        "top_score": 9.19,
+        "gated": false
+      },
+      {
+        "id": "q03",
+        "answerable": true,
+        "top_score": 16.28,
+        "gated": false
+      },
+      {
+        "id": "q04",
+        "answerable": true,
+        "top_score": 13.32,
+        "gated": false
+      },
+      {
+        "id": "q05",
+        "answerable": true,
+        "top_score": 19.42,
+        "gated": false
+      },
+      {
+        "id": "q06",
+        "answerable": true,
+        "top_score": 5.68,
+        "gated": false
+      },
+      {
+        "id": "q07",
+        "answerable": true,
+        "top_score": 7.91,
+        "gated": false
+      },
+      {
+        "id": "q08",
+        "answerable": true,
+        "top_score": 22.12,
+        "gated": false
+      },
+      {
+        "id": "q09",
+        "answerable": true,
+        "top_score": 11.77,
+        "gated": false
+      },
+      {
+        "id": "q10",
+        "answerable": true,
+        "top_score": 9.07,
+        "gated": false
+      },
+      {
+        "id": "q11",
+        "answerable": true,
+        "top_score": 7.0,
+        "gated": false
+      },
+      {
+        "id": "q12",
+        "answerable": true,
+        "top_score": 15.01,
+        "gated": false
+      },
+      {
+        "id": "q13",
+        "answerable": true,
+        "top_score": 13.65,
+        "gated": false
+      },
+      {
+        "id": "q14",
+        "answerable": true,
+        "top_score": 8.59,
+        "gated": false
+      },
+      {
+        "id": "q15",
+        "answerable": true,
+        "top_score": 12.98,
+        "gated": false
+      },
+      {
+        "id": "q16",
+        "answerable": true,
+        "top_score": 8.05,
+        "gated": false
+      },
+      {
+        "id": "q17",
+        "answerable": true,
+        "top_score": 12.6,
+        "gated": false
+      },
+      {
+        "id": "q18",
+        "answerable": true,
+        "top_score": 10.37,
+        "gated": false
+      },
+      {
+        "id": "q19",
+        "answerable": true,
+        "top_score": 11.09,
+        "gated": false
+      },
+      {
+        "id": "q20",
+        "answerable": true,
+        "top_score": 8.35,
+        "gated": false
+      },
+      {
+        "id": "q21",
+        "answerable": true,
+        "top_score": 11.03,
+        "gated": false
+      },
+      {
+        "id": "q22",
+        "answerable": true,
+        "top_score": 8.38,
+        "gated": false
+      },
+      {
+        "id": "q23",
+        "answerable": true,
+        "top_score": 6.36,
+        "gated": false
+      },
+      {
+        "id": "q24",
+        "answerable": true,
+        "top_score": 10.46,
+        "gated": false
+      },
+      {
+        "id": "q25",
+        "answerable": true,
+        "top_score": 11.4,
+        "gated": false
+      },
+      {
+        "id": "q26",
+        "answerable": true,
+        "top_score": 15.64,
+        "gated": false
+      },
+      {
+        "id": "q27",
+        "answerable": true,
+        "top_score": 15.73,
+        "gated": false
+      },
+      {
+        "id": "q28",
+        "answerable": true,
+        "top_score": 12.98,
+        "gated": false
+      },
+      {
+        "id": "u01",
+        "answerable": false,
+        "top_score": 3.91,
+        "gated": true
+      },
+      {
+        "id": "u02",
+        "answerable": false,
+        "top_score": 7.82,
+        "gated": false
+      },
+      {
+        "id": "u03",
+        "answerable": false,
+        "top_score": 4.02,
+        "gated": true
+      },
+      {
+        "id": "u04",
+        "answerable": false,
+        "top_score": 4.08,
+        "gated": true
+      },
+      {
+        "id": "u05",
+        "answerable": false,
+        "top_score": 2.5,
+        "gated": true
+      },
+      {
+        "id": "u06",
+        "answerable": false,
+        "top_score": 3.65,
+        "gated": true
+      }
+    ]
+  }
+}

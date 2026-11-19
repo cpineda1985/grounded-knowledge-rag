@@ -1,0 +1,34 @@
+{"id": "q01", "question": "A client cancels their package 20 days before departure. How much do we charge?", "expected": ["cancellations#vacation-packages"]}
+{"id": "q02", "question": "How much deposit is needed to confirm a vacation package?", "expected": ["payments#deposit"]}
+{"id": "q03", "question": "Can a client pay the balance in monthly installments?", "expected": ["payments#installment-plans"]}
+{"id": "q04", "question": "Is there a fee to cancel a refundable flight ticket?", "expected": ["cancellations#flight-only-bookings"]}
+{"id": "q05", "question": "A customer misspelled one letter of their name yesterday. Is the correction free?", "expected": ["changes#name-corrections"]}
+{"id": "q06", "question": "What does it cost to move a package to different dates?", "expected": ["changes#date-changes"]}
+{"id": "q07", "question": "How long until a client gets money back from an airline cancellation?", "expected": ["refunds#refund-timelines"]}
+{"id": "q08", "question": "Can we refund a cash payment to the client's brother's bank account?", "expected": ["refunds#refund-method"]}
+{"id": "q09", "question": "Is the travel insurance premium refundable?", "expected": ["refunds#non-refundable-items"]}
+{"id": "q10", "question": "Who decides how many bags a passenger can check?", "expected": ["baggage#who-sets-baggage-rules"]}
+{"id": "q11", "question": "A client's suitcase did not arrive. What should they do?", "expected": ["baggage#lost-or-delayed-baggage"]}
+{"id": "q12", "question": "What is the difference between the Basic and Plus insurance plans?", "expected": ["insurance#plans-offered"]}
+{"id": "q13", "question": "Can a client add the Plus insurance a week after paying the deposit?", "expected": ["insurance#when-to-buy"]}
+{"id": "q14", "question": "Does the agency tell clients whether they need a visa?", "expected": ["documents#agency-role"]}
+{"id": "q15", "question": "How much do we charge to help with a visa application?", "expected": ["documents#visa-processing-support"]}
+{"id": "q16", "question": "How many travelers make a group booking?", "expected": ["groups#what-counts-as-a-group"]}
+{"id": "q17", "question": "When is the rooming list due for a group?", "expected": ["groups#rooming-list"]}
+{"id": "q18", "question": "Does the group organizer travel for free?", "expected": ["groups#group-discounts"]}
+{"id": "q19", "question": "What commission does an advisor earn on travel insurance?", "expected": ["commissions#commission-rates"]}
+{"id": "q20", "question": "When are advisor commissions paid?", "expected": ["commissions#when-commissions-are-paid"]}
+{"id": "q21", "question": "What happens to my commission if the sale is cancelled after I was paid?", "expected": ["commissions#cancellations-and-clawback"]}
+{"id": "q22", "question": "How do I fix a mistake on an invoice that was already issued?", "expected": ["invoicing#correcting-an-invoice"]}
+{"id": "q23", "question": "A hotel says it has no record of our client's reservation tonight. What do we do?", "expected": ["escalations#alternative-arrangements", "escalations#problems-during-a-trip"]}
+{"id": "q24", "question": "When should an issue be escalated to the director?", "expected": ["escalations#escalation-levels"]}
+{"id": "q25", "question": "Can an agent see sales from other advisors?", "expected": ["office#roles"]}
+{"id": "q26", "question": "Are branches open on Saturday?", "expected": ["office#office-hours"]}
+{"id": "q27", "question": "A client wants to pay part in cash and part by card. Is that allowed?", "expected": ["payments#split-payments"]}
+{"id": "q28", "question": "A hurricane closed the airport at the destination. Do we still charge our service fee?", "expected": ["cancellations#force-majeure"]}
+{"id": "u01", "question": "What is the agency's policy on bringing pets on a cruise?", "expected": []}
+{"id": "u02", "question": "How many vacation days do employees get per year?", "expected": []}
+{"id": "u03", "question": "Which airline has the best on-time record to Madrid?", "expected": []}
+{"id": "u04", "question": "What exchange rate do we use for euros?", "expected": []}
+{"id": "u05", "question": "Can we sell train tickets in Europe?", "expected": []}
+{"id": "u06", "question": "What is the dress code for advisors at the branch?", "expected": []}

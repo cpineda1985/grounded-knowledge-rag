@@ -1,0 +1,13 @@
+{"id": "h01", "question": "My customer wants to postpone her honeymoon trip by a month. Is that possible and what does it cost?", "expected": ["changes#date-changes"]}
+{"id": "h02", "question": "The airline lost my client's luggage. How can we help?", "expected": ["baggage#lost-or-delayed-baggage"]}
+{"id": "h03", "question": "If a trip is booked two weeks before departure, can the client still pay in parts?", "expected": ["payments#installment-plans"]}
+{"id": "h04", "question": "A dad is flying alone with his kids. What should I remind him about?", "expected": ["documents#minors-traveling"]}
+{"id": "h05", "question": "Who can approve waiving the change fee for a loyal client?", "expected": ["changes#who-can-approve-changes"]}
+{"id": "h06", "question": "Can we keep the reimbursement as credit with the hotel instead of cash?", "expected": ["refunds#supplier-credits"]}
+{"id": "h07", "question": "Two of us worked on the same sale. How is the commission split?", "expected": ["commissions#shared-sales"]}
+{"id": "h08", "question": "How fast must someone pick up the phone when a traveler calls with an emergency?", "expected": ["escalations#problems-during-a-trip"]}
+{"id": "h09", "question": "Does every installment get its own receipt?", "expected": ["invoicing#receipts-for-each-payment"]}
+{"id": "h10", "question": "Our group dropped from 12 to 8 people. Does the price change?", "expected": ["groups#cancellations-inside-a-group"]}
+{"id": "h11", "question": "Do you offer airport lounge access as part of packages?", "expected": []}
+{"id": "h12", "question": "What is the agency's parental leave policy for staff?", "expected": []}
+{"id": "h13", "question": "Which hotel in Roatán has the best reviews?", "expected": []}

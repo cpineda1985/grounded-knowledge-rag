@@ -1,0 +1,29 @@
+# Domain glossary: words people use -> words the documents use.
+# BM25 only matches exact terms, so this bridges everyday language and policy language.
+# Each corpus can ship its own glossary; it is optional.
+
+[expand]
+"luggage" = "baggage"
+"suitcase" = "baggage"
+"bag" = "baggage"
+"bags" = "baggage"
+"money back" = "refund"
+"reimburse" = "refund"
+"reimbursement" = "refund"
+"reschedule" = "change date"
+"postpone" = "change date"
+"move" = "change"
+"kid" = "minor"
+"kids" = "minor"
+"child" = "minor"
+"children" = "minor"
+"price" = "fee"
+"cost" = "fee"
+"charge" = "fee"
+"boss" = "supervisor"
+"manager" = "supervisor"
+"pay later" = "installment"
+"monthly" = "installment"
+"emergency" = "problem trip"
+"open" = "office hours"
+"closed" = "office hours"

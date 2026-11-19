@@ -1,0 +1,175 @@
+{
+  "retrieval": {
+    "answerable": 10,
+    "unanswerable": 3,
+    "top_k": 4,
+    "hit_at_1": 0.9,
+    "hit_at_k": 1.0,
+    "mrr": 0.95,
+    "gate_min_score": 4.5,
+    "gate_blocked_answerable": 0,
+    "gate_blocked_unanswerable": 2,
+    "rows": [
+      {
+        "id": "h01",
+        "rank": 1,
+        "top": [
+          "changes#date-changes"
+        ],
+        "top_score": 8.57
+      },
+      {
+        "id": "h02",
+        "rank": 1,
+        "top": [
+          "baggage#lost-or-delayed-baggage"
+        ],
+        "top_score": 16.1
+      },
+      {
+        "id": "h03",
+        "rank": 1,
+        "top": [
+          "payments#installment-plans"
+        ],
+        "top_score": 7.52
+      },
+      {
+        "id": "h04",
+        "rank": 1,
+        "top": [
+          "documents#minors-traveling"
+        ],
+        "top_score": 8.23
+      },
+      {
+        "id": "h05",
+        "rank": 1,
+        "top": [
+          "changes#who-can-approve-changes"
+        ],
+        "top_score": 7.41
+      },
+      {
+        "id": "h06",
+        "rank": 1,
+        "top": [
+          "refunds#supplier-credits"
+        ],
+        "top_score": 10.63
+      },
+      {
+        "id": "h07",
+        "rank": 1,
+        "top": [
+          "commissions#shared-sales"
+        ],
+        "top_score": 19.3
+      },
+      {
+        "id": "h08",
+        "rank": 1,
+        "top": [
+          "escalations#problems-during-a-trip"
+        ],
+        "top_score": 15.51
+      },
+      {
+        "id": "h09",
+        "rank": 1,
+        "top": [
+          "invoicing#receipts-for-each-payment"
+        ],
+        "top_score": 13.17
+      },
+      {
+        "id": "h10",
+        "rank": 2,
+        "top": [
+          "changes#date-changes"
+        ],
+        "top_score": 6.13
+      }
+    ],
+    "gate_rows": [
+      {
+        "id": "h01",
+        "answerable": true,
+        "top_score": 8.57,
+        "gated": false
+      },
+      {
+        "id": "h02",
+        "answerable": true,
+        "top_score": 16.1,
+        "gated": false
+      },
+      {
+        "id": "h03",
+        "answerable": true,
+        "top_score": 7.52,
+        "gated": false
+      },
+      {
+        "id": "h04",
+        "answerable": true,
+        "top_score": 8.23,
+        "gated": false
+      },
+      {
+        "id": "h05",
+        "answerable": true,
+        "top_score": 7.41,
+        "gated": false
+      },
+      {
+        "id": "h06",
+        "answerable": true,
+        "top_score": 10.63,
+        "gated": false
+      },
+      {
+        "id": "h07",
+        "answerable": true,
+        "top_score": 19.3,
+        "gated": false
+      },
+      {
+        "id": "h08",
+        "answerable": true,
+        "top_score": 15.51,
+        "gated": false
+      },
+      {
+        "id": "h09",
+        "answerable": true,
+        "top_score": 13.17,
+        "gated": false
+      },
+      {
+        "id": "h10",
+        "answerable": true,
+        "top_score": 6.13,
+        "gated": false
+      },
+      {
+        "id": "h11",
+        "answerable": false,
+        "top_score": 5.03,
+        "gated": false
+      },
+      {
+        "id": "h12",
+        "answerable": false,
+        "top_score": 3.91,
+        "gated": true
+      },
+      {
+        "id": "h13",
+        "answerable": false,
+        "top_score": 3.63,
+        "gated": true
+      }
+    ]
+  }
+}
